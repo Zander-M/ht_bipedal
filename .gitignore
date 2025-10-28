@@ -1,0 +1,109 @@
+# ============================================================
+# ROS / Catkin / Colcon
+# ============================================================
+
+# Build and install directories
+build/
+devel/
+install/
+log/
+logs/
+.colcon/
+.colcon_install_cache/
+ament_cmake_index/
+ament_prefix_path/
+
+# ROS2 workspace overlays
+ros_ws/install/
+ros_ws/build/
+ros_ws/log/
+
+# Generated message/service headers
+**/msg_gen/
+**/srv_gen/
+**/action_gen/
+**/generated/
+**/CMakeFiles/
+**/cmake_install.cmake
+**/Makefile
+
+# ROS Bag files
+*.bag
+*.bag.active
+*.bag.tmp
+*.bag.orig
+
+# Launch / parameter files generated at runtime
+*.launch~
+*.yaml~
+*.pyc
+*.pyo
+__pycache__/
+
+# ============================================================
+# Python
+# ============================================================
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+wheels/
+*.manifest
+*.spec
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+.env
+.venv
+venv/
+env/
+ENV/
+
+# ============================================================
+# CMake / Build system
+# ============================================================
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+compile_commands.json
+
+# ============================================================
+# macOS System
+# ============================================================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# ============================================================
+# VSCode / CLion / JetBrains IDEs
+# ============================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.user
+*.workspace
+*.project
+*.iml
+cmake-build-*/
+
+# ============================================================
+# Logs / Temporary / Backups
+# ============================================================
+*.log
+*.bak
+*.tmp
+*.swp
+*.orig
+*~
